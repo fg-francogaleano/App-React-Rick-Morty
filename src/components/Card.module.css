@@ -1,0 +1,23 @@
+
+.contenedor{
+    display: inline-block;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 3%;
+}
+.imagen{
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+.boton{
+    color :brown;
+    display: inline-block;
+}
+
+.h2Name{
+    display: inline-block;
+    color: white;
+    background-color: rgba(5,7,12,0.75);
+}
+
