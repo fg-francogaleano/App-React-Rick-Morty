@@ -1,23 +1,44 @@
 
-.contenedor{
-    display: inline-block;
-    justify-content: space-evenly;
-    background-color: white;
-    border-radius: 3%;
+.card{
+    height: 350px;
+    background-color: rgba(22, 21, 21, 0.25);
+    border-radius: 6px;
+    border: 4px solid rgba(255, 255, 255, 0.189);
 }
-.imagen{
-    padding-top: 0px;
-    padding-bottom: 100px;
+.img{
+    position: relative;
+    bottom: 143px;
+    border-radius: 2%;
 }
-
 .boton{
-    color :brown;
-    display: inline-block;
+    background-color: rgb(196, 21, 21);
+    display: block;
+    margin-left: auto;
+    color :rgb(8, 8, 8);
+    position: relative;
+    z-index: 2;
+   
 }
 
-.h2Name{
-    display: inline-block;
+.h2{
     color: white;
-    background-color: rgba(5,7,12,0.75);
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.734);
+    position : relative;
+    z-index: 2;
+    right: 0px;
+    top:240px;
+    
 }
+
+.p{
+    color: black;
+    display:block;
+    position: relative;
+    z-index: 2;
+    color: rgb(14, 13, 13);
+    right:0px;
+    top: 225px;
+    
+} 
 

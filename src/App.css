@@ -1,9 +1,11 @@
 .App {
-   text-align: center;
-   background-image: url("./imagenes/Purple_Nebula_Universe_Space_Abstract_Design_1366x768.jpg");
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: fixed;
+   /* text-align: center; */
+   background-image: url("./imagenes/HD-wallpaper-rick-and-morty-space-universe-rick-and-morty-thumbnail.jpg");
+   background-repeat: no-repeat; 
+   background-position: center center; 
+   background-attachment:scroll;
+   background-size: cover;
+  
 }
 .divCard{
    background-color: purple;

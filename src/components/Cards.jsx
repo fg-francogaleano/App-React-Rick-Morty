@@ -3,7 +3,7 @@ import styles from './Cards.module.css'
 export default function Cards(props) {
    // const { characters } = props;
    return (
-      <div className={styles.contenedor}>
+      <div className={styles.cards}>
          {
             props.characters.map((e,index)=>{
             return <Card 
@@ -12,6 +12,8 @@ export default function Cards(props) {
             species={e.species}
             gender={e.gender}
             image={e.image}
+            id={e.id}
+            onClose={props.onClose}
             />})
          }
       </div>
