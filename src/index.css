@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images3.alphacoders.com/812/thumbbig-812062.webp");
+  background-repeat: no-repeat; 
+  background-position:center center; 
+  background-attachment:fixed;
+  background-size:cover;
+  font-family: comic Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
 }
 
 code {

@@ -1,10 +1,11 @@
 .App {
    /* text-align: center; */
-   background-image: url("./imagenes/HD-wallpaper-rick-and-morty-space-universe-rick-and-morty-thumbnail.jpg");
+   /* background-image: url("./imagenes/HD-wallpaper-rick-and-morty-space-universe-rick-and-morty-thumbnail.jpg"); */
    background-repeat: no-repeat; 
    background-position: center center; 
    background-attachment:scroll;
    background-size: cover;
+  /* border: red solid 2px; */
   
 }
 .divCard{
